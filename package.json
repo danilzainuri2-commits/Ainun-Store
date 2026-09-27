@@ -1,0 +1,16 @@
+{
+  "name": "ainun-store",
+  "version": "1.0.0",
+  "description": "Ainun Store — marketplace / online catalog dengan checkout via WhatsApp. Backend Node.js murni (tanpa framework eksternal) + SQLite bawaan Node.",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "seed": "node src/lib/seed.js"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
